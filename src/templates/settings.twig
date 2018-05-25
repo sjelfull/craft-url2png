@@ -1,0 +1,32 @@
+{# @var craft \craft\web\twig\variables\CraftVariable #}
+{#
+/**
+ * URL2PNG plugin for Craft CMS 3.x
+ *
+ * URL2PNG Settings.twig
+ *
+ * @author    Superbig
+ * @copyright Copyright (c) 2018 Superbig
+ * @link      https://superbig.co
+ * @package   URL2PNG
+ * @since     1.0.0
+ */
+#}
+
+{% import "_includes/forms" as forms %}
+
+{{ forms.textField({
+    label: 'API key',
+    instructions: 'Your URL2PNG API key.',
+    id: 'apiKey',
+    name: 'apiKey',
+    errors: settings.getErrors('apiKey'),
+    value: settings['apiKey']}) }}
+
+{{ forms.textField({
+    label: 'API secret',
+    instructions: 'Your URL2PNG API secret.',
+    id: 'apiSecret',
+    name: 'apiSecret',
+    errors: settings.getErrors('apiSecret'),
+    value: settings['apiSecret']}) }}

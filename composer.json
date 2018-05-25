@@ -1,0 +1,43 @@
+{
+    "name": "superbig/craft-url2png",
+    "description": "Lets you embed screenshots of webpages via the URL2PNG API.",
+    "type": "craft-plugin",
+    "version": "1.0.0",
+    "keywords": [
+        "craft",
+        "cms",
+        "craftcms",
+        "craft-plugin",
+        "url2png"
+    ],
+    "support": {
+        "docs": "https://github.com/sjelfull/craft-url2png/blob/master/README.md",
+        "issues": "https://github.com/sjelfull/craft-url2png/issues"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Superbig",
+            "homepage": "https://superbig.co"
+        }
+    ],
+    "require": {
+        "craftcms/cms": "^3.0.0"
+    },
+    "autoload": {
+        "psr-4": {
+          "superbig\\url2png\\": "src/"
+        }
+    },
+    "extra": {
+        "name": "URL2PNG",
+        "handle": "url2png",
+        "hasCpSettings": true,
+        "hasCpSection": false,
+        "changelogUrl": "https://raw.githubusercontent.com/sjelfull/craft-url2png/master/CHANGELOG.md",
+        "components": {
+            "service": "superbig\\url2png\\services\\URL2PNGService"
+        },
+        "class": "superbig\\url2png\\URL2PNG"
+    }
+}
