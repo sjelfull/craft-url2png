@@ -23,6 +23,6 @@
  */
 
 return [
-    "apiKey"    => '',
-    "apiSecret" => '',
+    'apiKey'    => '',
+    'apiSecret' => '',
 ];

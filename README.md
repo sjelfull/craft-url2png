@@ -29,8 +29,8 @@ Place a copy of src/config.php in your Craft config directory, by default `confi
 ```php
 <?php
 return [
-    "apiKey"    => '',
-    "apiSecret" => '',
+    'apiKey'    => '',
+    'apiSecret' => '',
 ];
 ```
 
