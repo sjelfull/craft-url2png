@@ -41,10 +41,8 @@ return [
 {{ craft.url2png.img({
             url: 'http://buildwithcraft.com',
             width: 500
-}) | raw }}
+}) }}
 ```
-
-Remember to include the raw filter. There is no current option to prevent Craft autoescaping the HTML returned from plugin templates in the frontend.
 
 ### URL
 ```twig
