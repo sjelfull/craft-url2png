@@ -11,8 +11,8 @@
         "url2png"
     ],
     "support": {
-        "docs": "https://github.com/sjelfull/craft-url2png/blob/master/README.md",
-        "issues": "https://github.com/sjelfull/craft-url2png/issues"
+        "docs": "https://github.com/superbigco/craft-url2png/blob/master/README.md",
+        "issues": "https://github.com/superbigco/craft-url2png/issues"
     },
     "license": "MIT",
     "authors": [
@@ -34,7 +34,7 @@
         "handle": "url2png",
         "hasCpSettings": true,
         "hasCpSection": false,
-        "changelogUrl": "https://raw.githubusercontent.com/sjelfull/craft-url2png/master/CHANGELOG.md",
+        "changelogUrl": "https://raw.githubusercontent.com/superbigco/craft-url2png/master/CHANGELOG.md",
         "components": {
             "service": "superbig\\url2png\\services\\URL2PNGService"
         },
