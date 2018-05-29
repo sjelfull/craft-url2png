@@ -2,7 +2,7 @@
     "name": "superbig/craft-url2png",
     "description": "Lets you embed screenshots of webpages via the URL2PNG API.",
     "type": "craft-plugin",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "keywords": [
         "craft",
         "cms",

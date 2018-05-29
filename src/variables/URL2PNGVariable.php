@@ -29,7 +29,7 @@ class URL2PNGVariable
     {
         $src        = $this->_run($settings);
         $attributes = $this->imgAttributes($settings);
-        $html       = "<img src=\"{$src}\"{$attributes}>";
+        $html       = "<img src=\"{$src}\" {$attributes}>";
 
         return Template::raw($html);
     }
